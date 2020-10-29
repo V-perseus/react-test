@@ -8,7 +8,9 @@ class App extends Component {
     super(props)
   
     this.state = {
+       mode : 'welcome',
        navbar:{title:'Hello', desc:'Nice to meet you'},
+       welcome : {title:'welcome', desc:'how do you do?'},
        content: {title: 'You are welcome', desc:'You are getting big'},
        tocs: [
          {id:1, title:'THTML', desc:'very nice hand'},
